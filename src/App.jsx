@@ -1,17 +1,17 @@
-import { useState } from "react"
+import React, { useState } from "react";
 import Background from "./Components/Background/Background";
+import Navbar from "./Components/Navbar/Navbar";
 
 export const App = () => {
-  let heroData = [
-    {text1:"Enter The", text2:"Mojave"},
-    {text2:"Build your", text2:"Courier"},
-    {text3:"Can you survive", text2:"The Wasteland?"}
-  ]
-  const[heroCount,setHeroCount] = useState(2);
-  const[playStatus,setPlayStatus]=useState(false);
+  const [heroCount, setHeroCount] = useState(0);
+  const [playStatus, setPlayStatus] = useState(false);
+
   return (
     <div>
-        <Background playStatus={playStatus} heroCount={heroCount}/>
+      <Background playStatus={playStatus} heroCount={heroCount} />
+      <Navbar />
     </div>
-  )
-}
+  );
+};
+
+export default App;

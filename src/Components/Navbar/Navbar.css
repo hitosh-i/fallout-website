@@ -1,0 +1,29 @@
+/* Navbar.css */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-logo {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu li {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-contact {
+    font-weight: bold;
+  }
+  
