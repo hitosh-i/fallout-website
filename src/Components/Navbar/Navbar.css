@@ -1,29 +1,37 @@
-/* Navbar.css */
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  .nav-logo {
-    color: #fff;
-    font-size: 1.5em;
-  }
-  
-  .nav-menu {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-menu li {
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .nav-contact {
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0; /* Adjust margin to center vertically */
+  color: black;
+  position: absolute;
+  z-index: 1;
+  top: 0; /* Align navbar to the top of the viewport */
+  left: 0;
+  right: 0; /* Stretch navbar across the entire width */
+  padding: 0 120px; /* Add padding to space out the content */
+}
+
+
+.nav-logo {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 42px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  gap: 90px;
+  color: white;
+}
+
+.nav-contact {
+  border-radius: 50px;
+  padding: 10px 38px;
+  background: black;
+  color: white;
+}

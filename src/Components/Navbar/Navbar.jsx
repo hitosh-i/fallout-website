@@ -5,10 +5,10 @@ export const Navbar = () => {
     <div className='nav'>
       <div className="nav-logo">Fallout NV FanPage!</div>
       <ul className='nav-menu'>
-          <li>Home</li>
-          <li>Explore</li>
-          <li>About</li>
-          <li className='nav-contact'>Contact</li>
+        <li>Home</li>
+        <li>Explore</li>
+        <li>About</li>
+        <li className='nav-contact'>Contact</li>
       </ul>
     </div>
   );

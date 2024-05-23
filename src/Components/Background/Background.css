@@ -1,11 +1,12 @@
-.Background{
-    height: 100%;
-    width: 100%;
-    float: left;
+.background {
+    height: 100vh; /* Use viewport height to cover the entire vertical space */
+    width: 100%;   /* Cover the entire horizontal space */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    position: fixed;
-    z-index: -1;
-}
+    z-index: 1; /* Ensure the background is behind other elements */
+  }
+  
