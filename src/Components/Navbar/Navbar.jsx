@@ -8,7 +8,7 @@ export const Navbar = () => {
         <li>Home</li>
         <li>Explore</li>
         <li>About</li>
-        <li className='nav-contact'>Contact</li>
+        <li className='nav-contact'>Steam Page</li>
       </ul>
     </div>
   );

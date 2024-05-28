@@ -1,5 +1,5 @@
 import './Background.css';
-import video1 from '../../assets/video1.mp4';
+import video1 from '../../assets/FalloutTrailer.mp4';
 import image1 from '../../assets/vegasimage1.png';
 import image2 from '../../assets/vegasimageCool.png';
 import image3 from '../../assets/vegasimageNew.png';
