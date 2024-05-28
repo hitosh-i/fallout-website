@@ -3,7 +3,7 @@ import './Navbar.css';
 export const Navbar = () => {
   return (
     <div className='nav'>
-      <div className="nav-logo">Fallout NV FanPage!</div>
+      <div className="nav-logo">Fallout NV Fan Page!</div>
       <ul className='nav-menu'>
         <li>Home</li>
         <li>Explore</li>

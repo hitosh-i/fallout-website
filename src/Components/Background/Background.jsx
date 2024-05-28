@@ -1,8 +1,8 @@
 import './Background.css';
 import video1 from '../../assets/video1.mp4';
 import image1 from '../../assets/vegasimage1.png';
-import image2 from '../../assets/vegasimage2.png';
-import image3 from '../../assets/vegasimage3.png';
+import image2 from '../../assets/vegasimageCool.png';
+import image3 from '../../assets/vegasimageNew.png';
 
 export const Background = ({ playStatus, heroCount }) => {
     if (playStatus) {
